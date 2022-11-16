@@ -4,7 +4,7 @@ import EN from './en'
 import Vue from 'vue'
 Vue.use(VueI18n)
 
-
+//_cfanlei@:注意：Vue.use(VueI18n)后再new VueI18n({...})，否则VueI18n报错
 const locale = 'zh-CN'
 class CustomFormatter {
     constructor (options={}) {
